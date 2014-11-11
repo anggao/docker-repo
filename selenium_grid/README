@@ -1,0 +1,21 @@
+1. install docker
+
+2. download git, clone the project
+
+3. Build the docker images:  PROJECT_FOLDER/build.sh
+
+4. Confirm images are created: docker images
+
+5. start a selenium hub container: start_grid.sh
+
+6. verify the grid at: http://host:4444/grid/console
+
+7. Add Firefox, Phantom.js nodes to it: add_firefox_node.sh  add_phantomjs_node.sh
+
+8. Verify the nodes are attached to the hub
+
+9. Play with it
+
+10. stop nodes: remove_all_firefox_nodes.sh   remove_all_phantomjs_nodes.sh
+
+11. stop grid: stop_grid.sh
